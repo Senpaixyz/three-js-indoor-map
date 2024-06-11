@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indoor 2.5D Map</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            display: block;
+        }
+
+        #toggleButton,
+        #addBoxButton,
+        #addSphereButton,
+        #addCylinderButton,
+        #addRectangleButton,
+        #addLargeSquareButton,
+        #exitAddStateButton {
+            position: absolute;
+            top: 10px;
+            padding: 10px;
+            background: white;
+            border: 1px solid black;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        #toggleButton {
+            left: 10px;
+        }
+
+        #addBoxButton {
+            left: 130px;
+        }
+
+        #addSphereButton {
+            left: 250px;
+        }
+
+        #addCylinderButton {
+            left: 370px;
+        }
+
+        #addRectangleButton {
+            left: 490px;
+        }
+
+        #addLargeSquareButton {
+            left: 610px;
+        }
+
+        #exitAddStateButton {
+            left: 730px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="toggleButton">Toggle View</div>
+    <div id="addBoxButton">Add Box</div>
+    <div id="addSphereButton">Add Sphere</div>
+    <div id="addCylinderButton">Add Cylinder</div>
+    <div id="addRectangleButton">Add Rectangle</div>
+    <div id="addLargeSquareButton">Add Large Square</div>
+    <div id="exitAddStateButton">Exit Add State</div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
